@@ -17,6 +17,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
   </head>
   <body>
     <header class="header">
@@ -65,7 +69,11 @@
           </p>
         </div>
         <!-- /.film-info -->
-        <a href="#" class="film-trailer"
+        <a
+          data-fancybox="video-gallery"
+          data-src="https://www.youtube.com/watch?v=TcMBFSGVi1c"
+          href="#"
+          class="film-trailer"
           ><svg
             class="play-button"
             viewBox="0 0 100 100"
@@ -732,6 +740,8 @@
       <a href="#" class="button button-pay">Перейти к оплате</a>
     </div>
     <!-- /.price container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
