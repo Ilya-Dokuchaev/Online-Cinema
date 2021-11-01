@@ -486,4 +486,7 @@ body {
   .film-desc {
     padding: 0;
   }
+  .button-pay {
+    padding: 5px;
+  }
 }
